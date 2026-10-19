@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sar-foundation-hazards"
+version = "1.0.0"
+description = "Multi-Sensor Self-Supervised SAR/InSAR Foundation Architecture & Kinematic Deformation Transformer for Mining High-Walls and Critical Infrastructure"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Dr. Kwabena Aryee", email = "k.aryee@geotech-insar.org" }]
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "pandas",
+    "scikit-learn",
+    "pillow",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "jupyter>=1.0.0",
+    "nbformat>=5.7.0",
+    "ipykernel>=6.0.0",
+]
+
+[project.scripts]
+sar-foundation = "run_pipeline:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::UserWarning",
+]

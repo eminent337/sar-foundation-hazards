@@ -1,0 +1,11 @@
+Prism_ID,Site,Coord_X,Coord_Y,Elevation_m,True_Velocity_mm_yr,Pred_Velocity_mm_yr,Velocity_Error_mm_yr,Is_Unstable_GroundTruth,True_Creep_Phase,True_Failure_Day
+CHIRANO-P01,Chirano Gold Mine High-Wall (Ghana),110.15,49.55,253.2,14.39,14.39,0.00,False,Secondary (Steady-State),N/A
+CHIRANO-P02,Chirano Gold Mine High-Wall (Ghana),42.72,22.47,306.1,98.90,98.90,0.00,True,Tertiary (Accelerating),240.0
+CHIRANO-P03,Chirano Gold Mine High-Wall (Ghana),16.32,63.44,226.1,15.46,15.46,0.00,False,Secondary (Steady-State),N/A
+CHIRANO-P04,Chirano Gold Mine High-Wall (Ghana),49.33,101.87,151.0,0.98,0.98,0.00,False,Stable,N/A
+CHIRANO-P05,Chirano Gold Mine High-Wall (Ghana),87.51,43.86,264.3,100.56,100.56,0.00,True,Tertiary (Accelerating),240.0
+CHIRANO-P06,Chirano Gold Mine High-Wall (Ghana),105.73,64.99,223.1,11.50,11.50,0.00,False,Secondary (Steady-State),N/A
+CHIRANO-P07,Chirano Gold Mine High-Wall (Ghana),56.54,32.66,286.2,103.01,103.01,0.00,True,Tertiary (Accelerating),240.0
+CHIRANO-P08,Chirano Gold Mine High-Wall (Ghana),16.58,39.21,273.4,101.72,101.72,0.00,True,Tertiary (Accelerating),240.0
+CHIRANO-P09,Chirano Gold Mine High-Wall (Ghana),77.55,48.77,254.7,13.80,13.80,0.00,False,Secondary (Steady-State),N/A
+CHIRANO-P10,Chirano Gold Mine High-Wall (Ghana),108.72,50.95,250.5,10.83,10.83,0.00,False,Secondary (Steady-State),N/A
